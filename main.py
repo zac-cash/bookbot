@@ -13,11 +13,9 @@ def main():
             print(f"The '{char_dict['char']}' was found {char_dict['num']} times.")
     print("--- End Book report ---")
 
-
 def Get_Text (filepath):
     with open(path_to_file) as f:
         return f.read()
-
 
 def Word_Count (string):
     return len(string.split())
